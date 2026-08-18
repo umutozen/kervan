@@ -1,0 +1,50 @@
+{
+  "zimbra": {
+    "adres": "10.0.0.10",
+    "port": 22,
+    "kullanici": "zimbra",
+    "sshAnahtar": "C:\\anahtarlar\\zimbra_anahtar",
+    "postaKullanici": "",
+    "provKomut": "zmprov",
+    "postaKomut": "zmmailbox"
+  },
+  "carbonio": {
+    "adres": "10.0.0.20",
+    "port": 22,
+    "kullanici": "zextras",
+    "sshAnahtar": "C:\\anahtarlar\\carbonio_anahtar",
+    "postaKullanici": "",
+    "provKomut": "carbonio prov",
+    "postaKomut": "zmmailbox"
+  },
+  "uzakCalismaDizini": "/tmp/kervan",
+  "eszamanliSayi": 3,
+  "aktarimModu": "aktarmali",
+  "aktarmaliYerelDizin": "C:\\kervan-gecici",
+  "dogrudan": {
+    "zimbraAdres": "10.0.0.10",
+    "zimbraKullanici": "zimbra",
+    "zimbraPort": 22,
+    "carbonioUzerindekiAnahtar": "/opt/zextras/.ssh/id_zimbra"
+  },
+  "esitleme": {
+    "calistigiYer": "carbonio",
+    "zimbraImapAdres": "",
+    "zimbraImapPort": 993,
+    "zimbraYonetici": "admin@ornek.com",
+    "zimbraYoneticiSifre": "",
+    "carbonioImapAdres": "",
+    "carbonioImapPort": 993,
+    "carbonioYonetici": "zextras@ornek.com",
+    "carbonioYoneticiSifre": "",
+    "ekSecenekler": []
+  },
+  "varsayilanSifre": "",
+  "cosEsleme": {},
+  "kotaUygula": true,
+  "temizlik": false,
+  "atlanacakHesaplar": ["admin@ornek.com"],
+  "atlanacakDesenler": ["galsync", "spam.", "ham."],
+  "dahilAlanlar": [],
+  "durumDosyasi": "durum.json"
+}
